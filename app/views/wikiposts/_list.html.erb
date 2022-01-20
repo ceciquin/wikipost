@@ -1,0 +1,7 @@
+<div class="posts">
+  <% @wikipost.each do |post| %>
+      <h4><%= post.title %></h4>
+      <%= image_tag post.image , class: 'thumbnail' %>
+      <%= link_to "View", wikipost_path(post), class: 'wikiLink' %>
+  <% end %>
+</div>

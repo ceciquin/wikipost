@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+<h1>
+<%= @wikipost.title %></h1>
+<p>
+<%= @wikipost.description %>
+</p>
+<p>
+<%= image_tag @wikipost.image %>
+</p>
+
+<%= render 'meta', wikipost: @wikipost %>
+
+
+
+<%= link_to 'Edit', edit_wikipost_path(@wikipost) %> |
+<%= link_to 'Back', wikiposts_path %>
