@@ -1,24 +1,34 @@
-# README
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## General info
 
-Things you may want to cover:
+- Project name : Wikiposts with Ruby
+- browsers : Chrome
+- SO : any
+- libraries : Rails
+- source code folder-files: "app" folder ( here you will find the main folders to build a typical mvc app and you will find the "model" folder that will point the objects created to be stored in the DB -ActiveRecord-), db ( You can find the full schema for this app),
+- notes : my aim is to create a basic CRUD app using Rails.
+- test objectives not completed : It's needed to add other operations and create a more attractive an user friendly style.
 
-* Ruby version
+## Technologies
+Project is created with:
 
-* System dependencies
+* ruby 3.0.0
+* Rails 6.1.4.4
+* SCSS
+* javascript
+* bundled 2.2.24
+* rvm 1.29.12
 
-* Configuration
+	
+## Setup
+To run this project locally, first install rvm, ruby, rails, bundled with the version mention above:
 
-* Database creation
+```
+$ bundle install
+$ bin/rails s 
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
